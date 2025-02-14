@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Valentine's Day Invitation</title>
+<head>
+<body>
+    <div class="container" id="main-container">
+        <div class="card">
+            <div class="card-header">
+                <h1>Hi my love💖</h1>
+            </div>
+            <div class="card-body">
+                <p>I've been thinking about us and how special you are to me.</p>
+                <p>Every day, I find myself more grateful for having you in my life.</p>
+                <p>There's something special I want to ask you</p>
+                <img src="https://img.freepik.com/foto-gratis/hermoso-brillante-amor-simbolo_1418-3.jpg" 
+                    class="image">
+            </div>
+        </div>
+        <button class="heart-button" id="heart-button" onclick="hideContainerAndShowText()">❤️ Next</button>
+    </div>
+    <div id="new-text-container" style="display: none;">
+        <div class="header">
+            <h1>But first, just one more thing to say</h1>
+        </div>
+        <p>Since I met you, my world changed in ways I never imagined possible.</p>
+        <p>My love for you grows stronger everyday and now, I miss you when we're not together </p>
+        <p></p>You're the love of my live and that will never change<p>
+        <img src="https://st2.depositphotos.com/3124803/11766/i/450/depositphotos_117661556-stock-photo-love-story-couple-at-sunset.jpg" 
+                    alt="A beautiful image" class="image">
+
+        <button class="arrow-button" id="arrow-button" onclick="hide3rdContainer()">❤️ Next</button>
+    </div>
+    <div id="3rd-container" style="display: none;">
+        <div class="envelope-wrapper">
+            <div id="envelope" class="close">
+                <div class="front flap"></div>
+                <div class="front pocket"></div>
+                <div class="letter">
+                    <p class="words line1">WILL YOU</p>
+                    <p class="words line2">BE</p>
+                    <p class="words line3">MY VALENTINE?</p>
+                </div>
+                <div class="hearts">
+                    <div class="heart a1"></div>
+                    <div class="heart a2"></div>
+                    <div class="heart a3"></div>
+                </div>
+            </div>
+        </div>
+        <div class="reset">
+            <button id="open">Open</button>
+            <button id="reset">Reset</button>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+    
+<body>
